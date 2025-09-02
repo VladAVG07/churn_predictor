@@ -120,9 +120,22 @@ print("Random Forest:", roc_auc_score(y_test, rf.predict_proba(X_test)[:,1]))
 
 ## 10. Visualizations
 - Distribution plots, boxplots, and scatterplots for EDA analysis
-- Images can be added using Markdown:
-```markdown
 ![Churn Distribution](images/churn_distribution.png)
 ![Correlation Heatmap](images/correlation_heatmap.png)
-```
+
+
+- logistic regression  
+
+![Logistic Regression](images/confusion_matrix_logistic_regression.png)  
+
+- decision tree  
+
+![Decision Tree](images/confusion_matrix_decision_tree.png)  
+
+- random forest  
+
+![random Forest](images/confusion_matrix_random_forest.png)
+
+
+
 
